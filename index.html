@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zumppy Soluções Digitais | Sites Profissionais, SEO e Marketing</title>
+<meta name="description" content="Agência digital em Montes Claros - MG. Criação de sites, identidade visual, SEO e Google Meu Negócio. Transforme visitantes em clientes." />
+<meta name="author" content="Zumppy Soluções Digitais" />
+<meta property="og:title" content="Zumppy Soluções Digitais" />
+<meta property="og:description" content="Sites profissionais que geram resultados. Solicite seu orçamento pelo WhatsApp." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container-7xl header-inner">
+    <a href="#inicio" class="logo-link">
+      <img src="assets/zumppy-logo.png" alt="Zumppy Soluções Digitais" class="logo-img animate-float" id="logoImg" />
+    </a>
+
+    <div class="header-actions">
+      <nav class="main-nav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5538984141399?text=Olá,%20vim%20através%20do%20site%20da%20Zumppy%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+         target="_blank" rel="noreferrer" class="btn-quote btn-glow btn-glow-hover">
+        
+        Solicitar Orçamento
+      </a>
+
+      <button class="menu-toggle glass" id="menuToggle" aria-label="Menu">
+        <svg class="icon" data-lucide="menu" id="menuIconOpen"></svg>
+        <svg class="icon" data-lucide="x" id="menuIconClose" style="display:none"></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav glass-strong" id="mobileNav">
+    <nav class="mobile-nav-inner">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+      <a href="https://wa.me/5538984141399?text=Olá,%20vim%20através%20do%20site%20da%20Zumppy%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+         target="_blank" rel="noreferrer" class="btn-quote btn-glow btn-glow-hover">
+        <svg class="icon icon-sm" data-lucide="sparkles"></svg> Solicitar Orçamento
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="inicio" class="hero">
+    <div class="hero-slide active" data-index="0">
+      <div class="hero-slide-bg" id="heroBg0"><img src="assets/hero-1.jpg" alt="Sites Profissionais que Geram Resultados" /></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid grid-bg"></div>
+    </div>
+    <div class="hero-slide" data-index="1">
+      <div class="hero-slide-bg" id="heroBg1"><img src="assets/hero-2.jpg" alt="Sua Empresa Merece Presença Digital de Alto Nível" /></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid grid-bg"></div>
+    </div>
+
+    <div class="particles" id="particles"></div>
+
+    <div class="hero-content">
+      <div class="hero-slide-text" id="heroTextWrap">
+        <!-- preenchido via JS para cada slide -->
+      </div>
+
+      <div class="hero-indicators" id="heroIndicators"></div>
+
+      <button class="hero-arrow prev glass" id="heroPrev" aria-label="Anterior">
+        <svg class="icon" data-lucide="chevron-left"></svg>
+      </button>
+      <button class="hero-arrow next glass" id="heroNext" aria-label="Próximo">
+        <svg class="icon" data-lucide="chevron-right"></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="sobre" class="section">
+    <div class="container-7xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Quem Somos</span>
+        <h2 class="heading-title text-metal">Soluções digitais que constroem autoridade</h2>
+        <p class="heading-subtitle">A Zumppy Soluções Digitais ajuda empresas, profissionais e negócios locais a conquistarem mais visibilidade e credibilidade através de soluções digitais modernas. Criamos experiências digitais que fortalecem marcas, geram autoridade e atraem novos clientes.</p>
+      </div>
+
+      <div class="grid-cards" id="differentialsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="servicos" class="section section-tint">
+    <div class="container-7xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Nossos Serviços</span>
+        <h2 class="heading-title text-metal">Tudo que sua marca precisa em um só lugar</h2>
+      </div>
+
+      <div class="grid-cards-3" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section class="section">
+    <div class="container-7xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Processo</span>
+        <h2 class="heading-title text-metal">Como trabalhamos</h2>
+        <p class="heading-subtitle">Um método claro e estratégico, do briefing à publicação.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        <div class="timeline-steps" id="processSteps"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PORTFOLIO ===================== -->
+  <section id="portfolio" class="section">
+    <div class="container-7xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Portfólio</span>
+        <h2 class="heading-title text-metal">Projetos que geram resultados</h2>
+      </div>
+
+      <div class="grid-cards-2" id="portfolioGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== BENEFITS ===================== -->
+  <section class="section section-tint">
+    <div class="container-7xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Benefícios</span>
+        <h2 class="heading-title text-metal">Por que investir em presença digital?</h2>
+      </div>
+
+      <div class="grid-benefits" id="benefitsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section class="section" style="padding-block:5rem">
+    <div class="container-7xl">
+      <div class="stats-panel glass">
+        <div class="grid-bg" style="position:absolute;inset:0;opacity:.3"></div>
+        <div class="stats-grid" id="statsGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section">
+    <div class="container-7xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Depoimentos</span>
+        <h2 class="heading-title text-metal">O que dizem nossos clientes</h2>
+      </div>
+
+      <div class="grid-cards-2" id="testimonialsGrid"></div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta-section section" style="padding-block:6rem">
+    <div class="cta-bg-img"><img src="assets/cta-bg.jpg" alt="" loading="lazy" /></div>
+    <div class="cta-bg-overlay"></div>
+    <div class="cta-inner reveal">
+      <span class="eyebrow glass"> Pronto para começar?</span>
+      <h2 class="heading-title text-metal" style="font-size:2.25rem">Seu negócio merece um site profissional</h2>
+      <p class="heading-subtitle">Aumente sua presença digital e conquiste mais clientes com soluções modernas e estratégicas.</p>
+      <a href="https://wa.me/5538984141399?text=Olá,%20vim%20através%20do%20site%20da%20Zumppy%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+         target="_blank" rel="noreferrer" class="btn btn-glow btn-glow-hover" style="margin-top:2.5rem;padding:1rem 2.25rem">
+        <svg class="icon" data-lucide="rocket"></svg> Solicitar Orçamento
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contato" class="section">
+    <div class="container-5xl">
+      <div class="reveal container-3xl text-center" style="margin-inline:auto">
+        <span class="eyebrow glass"> Contato</span>
+        <h2 class="heading-title text-metal">Vamos conversar?</h2>
+        <p class="heading-subtitle">Atendimento rápido e personalizado pelo WhatsApp.</p>
+      </div>
+
+      <div class="reveal contact-panel glass" style="margin-top:3.5rem">
+        <div class="contact-grid">
+          <div>
+            <div class="contact-item">
+              <div class="icon-tile"><svg class="icon" data-lucide="phone"></svg></div>
+              <div>
+                <p class="label">WhatsApp</p>
+                <p class="value">(38) 98414-1399</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-tile"><svg class="icon" data-lucide="map-pin"></svg></div>
+              <div>
+                <p class="label">Localização</p>
+                <p class="value">Montes Claros - MG</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-cta">
+            <a href="https://wa.me/5538984141399?text=Olá,%20vim%20através%20do%20site%20da%20Zumppy%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+               target="_blank" rel="noreferrer" class="btn btn-glow btn-glow-hover" style="font-weight:700">
+              <svg class="icon" data-lucide="message-circle"></svg> Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container-7xl footer-grid">
+    <div class="footer-brand">
+      <img src="assets/zumppy-logo.png" alt="Zumppy" />
+      <p>A Zumppy Soluções Digitais cria experiências digitais premium que fortalecem marcas e geram resultados reais.</p>
+    </div>
+    <div>
+      <h4>Links Rápidos</h4>
+      <div class="footer-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <div class="footer-contact">
+        <span>WhatsApp: (38) 98414-1399</span>
+        <span>Montes Claros - MG</span>
+      </div>
+      <div class="social-row">
+        <a href="https://wa.me/5538984141399?text=Olá,%20vim%20através%20do%20site%20da%20Zumppy%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+           target="_blank" rel="noreferrer" aria-label="WhatsApp" class="social-btn glass card-hover">
+          <svg class="icon icon-sm" data-lucide="message-circle"></svg>
+        </a>
+        <a href="#" aria-label="Instagram" class="social-btn glass card-hover"><svg class="icon icon-sm" data-lucide="at-sign"></svg></a>
+        <a href="#" aria-label="Site" class="social-btn glass card-hover"><svg class="icon icon-sm" data-lucide="globe-2"></svg></a>
+        <a href="#" aria-label="E-mail" class="social-btn glass card-hover"><svg class="icon icon-sm" data-lucide="send"></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Zumppy Soluções Digitais. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- ===================== FLOATING WHATSAPP ===================== -->
+<a href="https://wa.me/5538984141399?text=Olá,%20vim%20através%20do%20site%20da%20Zumppy%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+   target="_blank" rel="noreferrer" aria-label="WhatsApp" class="fab-whatsapp">
+  <span class="fab-ping animate-ping"></span>
+  <svg class="icon" data-lucide="message-circle"></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
